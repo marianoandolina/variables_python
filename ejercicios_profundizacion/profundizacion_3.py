@@ -39,6 +39,8 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
 
-nombre = "mariano"
+nombre_completo = input("Ingrese su nombre completo: ")
 
-print(nombre.lower())
+print(nombre_completo.lower()) # muestra todas las letras en minuscula
+print(nombre_completo.upper()) # muestra todas las letras en mayuscula
+print(nombre_completo.capitalize()) # muestra la primera letra mayuscula

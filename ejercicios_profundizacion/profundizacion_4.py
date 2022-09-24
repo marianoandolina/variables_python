@@ -46,3 +46,15 @@ Cualquier duda con el método split pueden consultarla por el campus
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
 
+padre_1 = input("Ingrese nombre y apellido del padre: ")
+padre_2 = input("Ingrese nombre y apellido de la madre: ")
+nombre_hijo = input("Ingrese el nombre del hijo: ")
+nombre_1, apellido_1 = padre_1.split(' ')
+nombre_2, apellido_2 = padre_2.split(' ')
+
+
+nombre_completo_hijo = nombre_hijo + ' ' + apellido_1 + ' ' + apellido_2
+
+print(f"El nombre completo del hijo con ambos apellidos es {nombre_completo_hijo}")
+
+print("********* FIN DEL PROGRAMA ********")
